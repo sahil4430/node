@@ -1,0 +1,15 @@
+  
+  .N{
+    background-color: black;
+  }
+  .nav navbar-nav navbar-right{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .ml-auto .nav-link {
+    color: rgb(252, 252, 252) 
+  }
+  .navbar-nav .nav-link:hover {
+    color: lightgray}
+.im-1{
+    height: 40px;
+}

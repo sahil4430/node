@@ -1,0 +1,26 @@
+
+.logo{
+    filter: brightness(100%);
+   margin-left: 500px;
+   margin-top: 20px;
+
+}
+
+
+.Container{
+    height: 450px;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 250px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7),rgba(61, 88, 64, 0.3) );
+}
+.Container {
+    height: 450px;
+    width: 800px;
+    margin: 10px auto 0; /* Adds a margin-top of 20px and centers the container */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(61, 88, 64, 0.3));
+    padding-top: 20px; 
+}
+.Slider {
+    margin-top: 100px; /* Adjust margin as needed to create space between the image and the slider */
+}

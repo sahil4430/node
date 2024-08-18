@@ -1,0 +1,57 @@
+.body {
+    position: relative; /* Ensure the body is positioned relatively */
+  }
+  
+  .img {
+    height: 100vh; 
+    width: 100vw; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+    object-fit: cover; 
+    filter: brightness(60%);
+  } 
+  .img1{
+    filter: blur(1 px );
+}
+  .navbar {
+    background-color: transparent;
+    color: aliceblue;
+    position: absolute; 
+    width: 100%; 
+    z-index: 1; 
+  }
+  
+  .Bcontainer{
+    top: 500px;
+  margin-top: 300px;
+  margin-left: 350px;
+  background-color: transparent;
+  display: flex;
+  height: 60px;
+  width: 50px;
+  }
+  .con{
+    background: linear-gradient(to top,rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.7) );
+    width: 70px;
+    border-radius: 22px;
+    height: 50px; /* Add this line */
+    display: flex; /* Add this line */
+    justify-content: center; /* Add this line */
+    align-items: center; 
+    margin-left: 50px;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5)) drop-shadow(0 1px 3px rgba(0, 0, 0,0.6));;
+  }
+  .input{
+    width:  300px;
+    border-radius: 10px;
+    border: none;
+  }
+  .search{
+    margin-left: 470px;
+    margin-top: 33px;
+    margin-bottom: 90px;
+    opacity: 60%;
+  }
+ .search {  }
